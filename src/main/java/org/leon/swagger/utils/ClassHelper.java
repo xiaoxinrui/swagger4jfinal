@@ -30,7 +30,7 @@ public final class ClassHelper {
 
     /**
      * 获取应用包下所有的类
-     * @return
+     * @return Set<Class<?>>
      */
     public static Set<Class<?>> getClassSet() {
         return CLASS_SET;
@@ -38,7 +38,7 @@ public final class ClassHelper {
 
     /**
      * 获取应用包名下所有的Service类
-     * @return
+     * @return Set<Class<?>>
      */
     public static Set<Class<?>> getApiSet() {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
@@ -52,7 +52,7 @@ public final class ClassHelper {
 
     /**
      * 获取应用包名下所有 Bean 类(包括: API 等)
-     * @return
+     * @return Set<Class<?>>
      */
     public static Set<Class<?>> getBeanClassSet() {
         Set<Class<?>> beanClassSet = new HashSet<Class<?>>();
@@ -62,8 +62,8 @@ public final class ClassHelper {
 
     /**
      * 获取应用包名下某父类(或接口)的所有子类(或实现类)
-     * @param superClass
-     * @return
+     * @param superClass 父类
+     * @return Set<Class<?>>
      */
     public static Set<Class<?>> getClassSetBySuper(Class<?> superClass) {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
@@ -78,8 +78,8 @@ public final class ClassHelper {
 
     /**
      * 获取应用包名下带有某注解的所有类
-     * @param annotationClass
-     * @return
+     * @param annotationClass 带有某注解的类
+     * @return Set<Class<?>>
      */
     public static Set<Class<?>> getClassSetByAnnotation(Class<? extends Annotation> annotationClass) {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
