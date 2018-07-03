@@ -1,3 +1,6 @@
+# swagger4jfinal
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f80dd89b8a1b48d585bdf16a6640761b)](https://www.codacy.com/app/xiaoxinruiyouxiang/swagger4jfinal?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LeonXiaoX/swagger4jfinal&amp;utm_campaign=Badge_Grade)
+
 **项目说明** 
 - 开发可将Swagger集成到JFinal中的组件
 - 已添加为Jfinal插件，可直接配置*.properties文件初始化该组件
@@ -175,7 +178,7 @@ public class MenuController extends Controller{
 <br>
 
  **使用效果**
- 
+
  ![登录页面](https://t1.aixinxi.net/o_1cb99sab3uio9aa1thiq5l1pg0a.png-j.jpg "登录页面")
- 
+
 该组件部分代码参考了[leeckent](https://gitee.com/leeckent/jfinal-swagger)，若有疑问，欢迎issue！
