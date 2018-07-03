@@ -18,6 +18,8 @@ swagger4jfinal
     │
     ├─core        注解实现核心包
     │
+    ├─exception   自定义异常
+    │
     ├─model       注解对象
     │
     ├─plugin      注册为Jfinal插件
