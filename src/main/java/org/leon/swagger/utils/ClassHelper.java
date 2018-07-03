@@ -2,6 +2,7 @@ package org.leon.swagger.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.leon.swagger.annotation.Api;
+import org.leon.swagger.exception.InitializationException;
 
 import java.lang.annotation.Annotation;
 import java.util.HashSet;
@@ -24,7 +25,7 @@ public final class ClassHelper {
      */
     public static void initProp(Properties p) throws Exception {
         String basePackage = p.getProperty("scan_package");
-        if (StringUtils.isEmpty(basePackage)) throw new Exception("scan_package can't be null!");
+        if (StringUtils.isEmpty(basePackage)) throw new InitializationException("scan_package can't be null!");
         CLASS_SET = ClassUtil.getClassSet(basePackage);
     }
 

@@ -1,6 +1,7 @@
 package org.leon.swagger.utils;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.leon.swagger.exception.InitializationException;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -83,7 +84,7 @@ public class ClassUtil {
             }
         } catch (Exception e) {
             logger.warning("get class set failure" + e.getMessage());
-            throw new RuntimeException(e);
+            throw new InitializationException(e);
         }
         return classSet;
     }
