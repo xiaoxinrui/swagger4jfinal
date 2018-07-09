@@ -105,9 +105,6 @@ public void downloadJson() {
 - 4、添加swagger.properties，参考如下：
 ```
 # 扫描包路径
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e7a0b9b8f4fb4257bc41905227e9c879)](https://app.codacy.com/app/xiaoxinruiyouxiang/swagger4jfinal?utm_source=github.com&utm_medium=referral&utm_content=LeonXiaoX/swagger4jfinal&utm_campaign=badger)
-
 scan_package=com.xxx.xxx.xxx
 
 # swagger基础信息
