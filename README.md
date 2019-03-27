@@ -183,4 +183,6 @@ public class MenuController extends Controller{
 
  ![登录页面](https://t1.aixinxi.net/o_1cb99sab3uio9aa1thiq5l1pg0a.png-j.jpg "登录页面")
 
-该组件部分代码参考了[leeckent](https://gitee.com/leeckent/jfinal-swagger)，若有疑问，欢迎issue！
+若有疑问，欢迎issue！
+
+ **祝君成功！** :hear_no_evil:
