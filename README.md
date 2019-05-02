@@ -181,7 +181,7 @@ public class MenuController extends Controller{
 
  **使用效果**
 
- ![登录页面](https://t1.aixinxi.net/o_1cb99sab3uio9aa1thiq5l1pg0a.png-j.jpg "登录页面")
+ ![登录页面](assets/home_01.jpg "登录页面")
 
 若有疑问，欢迎issue！
 
